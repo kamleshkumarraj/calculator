@@ -53,6 +53,7 @@ html{
     font-size: 3rem;
     color: blue;
     font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 
     &:focus{
         outline: none;
@@ -68,10 +69,12 @@ html{
 }
 .common-row p{
     background-color: rgba(187, 237, 8, 0.416);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .first-row{
     & p{
         background-color: rgba(38, 25, 215, 0.304);
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
 }
 .common-row p:last-child{
